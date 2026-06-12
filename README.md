@@ -24,7 +24,7 @@ A modern, responsive admin dashboard built with **Next.js**, **ShadCN UI**, **Ra
 ## 🚀 Getting Started
 
 \`\`\`bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/Sreedevij03/shadcn.git
 cd <repo-name>
 npm install
 npm run dev
