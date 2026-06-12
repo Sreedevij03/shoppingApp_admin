@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 Admin Dashboard – Next.js & ShadCN UI
 
-## Getting Started
+A modern, responsive admin dashboard built with **Next.js**, **ShadCN UI**, **Radix UI**, and **Tailwind CSS**. Features a fully functional sidebar, dark mode, interactive charts, data tables, and form validation — designed with accessibility and clean component architecture in mind.
 
-First, run the development server:
+## ✨ Features
 
-```bash
+- 🎨 **Custom Theming** – Light/dark mode with ShadCN's theming system
+- 📱 **Collapsible Sidebar** – Nested menus, badges, and grouped sections
+- 📈 **Data Visualization** – Area, pie, and line charts using Recharts
+- 🧩 **Reusable UI Components** – Cards, dropdowns, sheets, hover cards, progress bars, breadcrumbs, calendar/popover
+- ✅ **Form Validation** – Built with React Hook Form + Zod
+- 📋 **Advanced Data Table** – Sorting, pagination, row selection, and custom actions via Tanstack Table
+- 🌐 **Modern CSS** – OKLCH color system for consistent, accessible theming
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **UI Library:** ShadCN UI / Radix UI
+- **Styling:** Tailwind CSS
+- **Charts:** Recharts
+- **Forms & Validation:** React Hook Form, Zod
+- **Tables:** Tanstack React Table
+
+## 🚀 Getting Started
+
+\`\`\`bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📚 Learning Source
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Built by following [Lama Dev's ShadCN UI tutorial](https://www.youtube.com/watch?v=SjsQdfvxjL8) as a learning project, with additional exploration of component customization and patterns.
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
